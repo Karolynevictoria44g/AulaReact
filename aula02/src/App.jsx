@@ -4,5 +4,8 @@ export default function App()
     <div>
       <h1>Aula 02 - Estudo de componenetes e Props</h1>
     </div>
+
+
+
   )
 }
