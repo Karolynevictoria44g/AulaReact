@@ -1,8 +1,10 @@
-export default function Exercicio1()
-{
+export default function Exercicio1( {Fahrenheit} )
+{ 
+
+  let celsius= (Number(Fahrenheit)-32* 5) / 9
   return (
     <div>
-      <h1></h1>
+       A temperatura {Fahrenheit} é {celsius} em celsius
     </div>
 
 

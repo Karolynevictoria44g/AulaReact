@@ -1,8 +1,10 @@
-export default function Exercicio2()
+export default function Exercicio2( {IMC, peso} )
 {
+
+  let IMC= peso
   return (
     <div>
-      <h1></h1>
+      
     </div>
 
 
