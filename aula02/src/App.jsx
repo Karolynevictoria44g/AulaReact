@@ -3,6 +3,7 @@ import Exemplo1 from "./paginas/Exemplo1"
 import Exemplo2 from "./paginas/Exemplo2";
 import Exercicio1 from "./paginas/Exercicio1";
 import Exercicio2 from "./paginas/Exercicio2";
+import Exercicio3 from "./paginas/Exercicio3";
 export default function App()
 {
   return (
@@ -26,6 +27,13 @@ export default function App()
       <div className="card">
          <h3>Chamadas para o Exercicio1</h3>
          <Exercicio1 Fahrenheit= {30}/> 
+      </div>
+
+      <div className="card">
+         <h3>Chamadas para o Exercicio2</h3>
+         <Exercicio2 peso= {80}  altura= {1.80}/>
+         <hr />
+         <Exercicio2 peso= {60}  altura= {1.60}/>
       </div>
 
       <div className="card">
