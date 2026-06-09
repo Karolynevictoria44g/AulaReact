@@ -1,11 +1,10 @@
-export default function Exercicio4()
+export default function Exercicio4({base,altura})
 {
-  return (
-    <div>
-      <h1></h1>
-    </div>
-
-
-
-  )
+    let area;
+    area=(Number(base)*Number(altura))/2;
+    return(
+        <div>
+           A área do triangulo é {area}; 
+        </div>
+    )
 }
