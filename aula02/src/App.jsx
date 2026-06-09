@@ -37,12 +37,20 @@ export default function App()
       </div>
 
       <div className="card">
-         <h3>Chamadas para o Exercicio2</h3>
-         <Exercicio2 peso= {80}  altura= {1.80}/>
-         <hr />
-         <Exercicio2 peso= {60}  altura= {1.60}/>
+        <h3>Chamada para o Exercicio 3</h3>
+        <Exercicio3 nota1 ={10} nota2={10}/>
       </div>
-        
+
+      <div className="card">
+        <h3>Chamada para o Exercicio 4</h3>
+        <Exercicio4 base ={10} altura={10}/>
+      </div>
+
+      <div className="card">
+        <h3>Chamada para o Exercicio 5</h3>
+        <Exercicio5 consultas={100}/>
+      </div>
+
     </div>
 
 
